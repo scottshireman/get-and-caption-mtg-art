@@ -7,7 +7,7 @@ Download all unique art from scryfall and caption it with BLIP2
 
 Wait a long time for the script to download all art and create text tag files for each with card metadata. When its done, continue:
 
-5. run python caption_magic_art.py ==img_dir images
+5. run python caption_magic_art.py --img_dir images
 6. delete *.txt files from image folder once all yamnl files have been created.
 
 Result will be all unique art downloaded to image folder with a yaml file for each image with a BLIP2 caption and tags with the cards metadata suitable for fine-tuning with a Stable Diffusion trainer like EveryDream2.
