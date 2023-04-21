@@ -102,6 +102,9 @@ data = json.load(f)
 
 start_time = time.time()
 
+if not os.path.exists('images'):
+    os.mkdir('images')
+
 for i in data:
 
     if i['layout'] in multiface_card_types:
