@@ -19,14 +19,10 @@ import os
 from PIL import Image
 import argparse
 import requests
-from transformers import Blip2Processor, Blip2ForConditionalGeneration
-
 import torch
-from  pynvml import *
-
 import time
-from colorama import Fore, Style
-from clip_interrogator import Config, Interrogator, LabelTable, load_list
+
+from transformers import Blip2Processor, Blip2ForConditionalGeneration
 from unidecode import unidecode
 
 
