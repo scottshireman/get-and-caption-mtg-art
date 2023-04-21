@@ -12,4 +12,4 @@ Wait a long time for the script to download all art and create text tag files fo
 
 Result will be all unique art downloaded to image folder with a yaml file for each image with a BLIP2 caption and tags with the cards metadata suitable for fine-tuning with a Stable Diffusion trainer like EveryDream2.
 
-Note #5 requires 24GB VRAM. Alternatively if you have 64GB RAM you can run with --force_cpu, but it will be considerably slow. You can also find other BLIP2 models on HuggingFace that require less VRAM.
+Note #5 requires 24GB VRAM. Alternatively if you have 64GB RAM you can run with --force_cpu, but it will be considerably slow. You can also find other BLIP2 models on HuggingFace that require less VRAM and use it instead with --blip_model BLIP_MODEL_HF_PATH
