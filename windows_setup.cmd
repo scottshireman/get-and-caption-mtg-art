@@ -4,9 +4,8 @@ echo should be in venv here
 cd .
 python -m pip install --upgrade pip
 
-pip install json
-pip install shutil
 pip install unidecode
+pip install requests
 
 
 GOTO :eof
